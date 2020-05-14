@@ -1,0 +1,23 @@
+{
+  "name": "houseparty/phpdocx",
+  "description": "our fork of the popular PhpDocx library.",
+  "version": "5.5.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ryan",
+      "email": "rt@houseparty.com"
+    },
+    {
+      "name": "Christopher M. Black",
+      "email": "chris.black@houseparty.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+        "src/Classes/Phpdocx/Create/CreateDocx.inc",
+        "src/Classes/Phpdocx/Create/CreateDocxFromTemplate.inc",
+        "src/Classes/Phpdocx/Logger/PhpdocxLogger.inc"
+    ]
+  }
+}
